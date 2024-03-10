@@ -1,0 +1,15 @@
+.image-container {
+    width: 100vw;
+    /* Chiều rộng của toàn bộ trang web */
+    height: 100vh;
+    /* Chiều cao của toàn bộ trang web */
+}
+
+.image-container img {
+    width: 100%;
+    /* Chiều rộng của phần tử ảnh sẽ rộng đến phần tử cha */
+    height: 100%;
+    /* Chiều cao của phần tử ảnh sẽ cao đến phần tử cha */
+    object-fit: cover;
+    /* Căn chỉnh ảnh để lấp đầy phần tử mà không bị méo dạng */
+}
